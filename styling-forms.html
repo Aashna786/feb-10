@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color:darkgray;
+        
+        }
+        
+input[type=text]{
+    color:black;
+    background-color:deeppink;
+    font-weight: bold;
+}
+input[type=password]{
+    background-color: blueviolet;
+    color:aqua;
+    font-weight: bold;
+}
+input[type=tel]{
+    background-color: crimson;
+    color:darkblue;
+    font-weight: bold;
+}
+input[type=datetime-local]{
+    background-color: darkorange;
+    color: green;
+    font-weight: bold;
+}
+select[name]{
+    background-color:cornflowerblue;
+    color:brown;
+    font-weight:bold;
+}
+input[type=num]{
+    background-color: darkolivegreen;
+    color: red;
+    font-weight: bold;
+}
+input[type=submit]{
+    background-color: darkmagenta;
+    color: white;
+}
+h3{
+    color: darkslateblue;
+}
+    </style>
+    
+</head>
+<body>
+    
+<form>
+    
+    <table>
+        
+        <h3>Registartion Form</h3>
+        
+        <tr>
+        
+            <td><label  style="color: deeppink;"for="fname"><b>First Name:</b></label></td>
+            <td><input type="text" id="fname" name="fname"></td>
+        </tr>
+        <tr>
+             <td><label style="color: blue;"for="lname"><b>Last Name:</b></label></td>
+             <td><input style="background-color:blue; color:white;" type="text" id="lname" name="lname"></td>
+        </tr>
+        <tr>
+            <td><label style="color: chartreuse;"for="email-id"><b>Email-Id:</b></label></td>
+            <td><input style="background-color: chartreuse; color: crimson;"type="text" id="email" name="mail"></td>
+        </tr>
+        <tr>
+            <td><label style="color: blueviolet;" for="pswd"><b>Password:</b></label></td>
+            <td><input type="password" id="pswd" name="pswd"></td>
+        </tr>
+        <tr>
+            <td><label style="color:firebrick;" for="phn"><b>Mobile Number:</b></label></td>
+            <td><input type="tel" id="phn" name="phn" maxlength="10"></td>
+        </tr>
+        <tr>
+            <td><label style="color:darkorange;" for="date"><b>Date Of Birth:<b></label></td>
+            <td><input type="datetime-local" id="date" name="date"></td>
+        </tr>
+        <tr>
+          <td><label style="color: cornflowerblue;" for="qualification"><b>Highest Qualification:</b></label></td> 
+          <td><select name="degrees">
+            <option></option>
+            <option value="B.tech">Bachelor's Degree</option>
+            <option value="B.E">B.E</option>
+            <option value="B.Pharmacy">B.Pharmacy</option>
+          </select></td> 
+        </tr>
+    <tr>
+        <td><label style="color: darkolivegreen;" for="marks"><b>CGPA:</b></label></td>
+        <td><input type="num" id="marks" name="marks"></td>
+    </tr>
+    <tr>
+        <td><label style="color: darkgoldenrod;" for="degree"><b>Intermediate CGPA:</b></label></td>
+        <td><input style="background-color: darkgoldenrod;color: darkred;" type="num" id="degree" name="degree"></td>
+    </tr>
+    <tr>
+        <td><label style="color:darkcyan;" for="marks"><b>SSC CGPA:</b></label></td>
+        <td><input style="background-color:darkcyan; color: coral;" type="num" id="marks" name="marks"></td>
+    </tr> 
+    <tr>
+        <td><input type="submit" value="Register"</td>
+    </tr>
+</form>
+    
+</body>
+</html>
